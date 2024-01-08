@@ -461,9 +461,9 @@ h2 {
 
 }
 
-.footer img {
-
-    top: -70px;
+.footer .icon {
+    position: relative;
+    top: -20px;
 }
 
 #footer-top-right {
