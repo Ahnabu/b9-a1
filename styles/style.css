@@ -12,11 +12,12 @@
     border-radius: 16px;
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 1320px;
+    max-width: 1400px;
     /* max-height: 600px; */
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../B9A1-New-Year-New-Mission/resources/Banner\ Image.png");
-    padding: 100px 180px;
-
+    padding: 90px 180px;
+    background-position: center;
+    height: 400px;
 }
 
 .new-year {
@@ -438,6 +439,7 @@ h2 {
     background: #070211;
     padding: 20px 140px;
     height: 600px;
+    
 
 }
 
