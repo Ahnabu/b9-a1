@@ -1,36 +1,272 @@
+* {
+    margin-top: 50px;
+}
+
 .header-main {
     margin: 0px 140px;
 }
+
 .header-div {
-    margin-top: 50px;
-    
+
+
     border-radius: 16px;
-    background-repeat: no-repeat
-   
-    ;
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
     max-width: 1320px;
     max-height: 600px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../B9A1-New-Year-New-Mission/resources/Banner\ Image.png");
     padding: 130px 344px;
-    
-}
-.new-year{
-    color: #FFF;
-text-align: center;
-font-family: Merriweather;
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
 
 }
-.celebration{
+
+.new-year {
     color: #FFF;
-text-align: center;
-font-family: Merriweather;
-font-size: 72px;
-font-style: normal;
-font-weight: 900;
-line-height: 95px; /* 131.944% */
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.celebration {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    /* 131.944% */
+}
+
+/* main section started */
+.main-first {
+    margin: auto;
+}
+
+.first-image {
+    width: 100%;
+    /* margin: auto; */
+    /* align-items: center;
+    justify-content: center; */
+    text-align: center;
+}
+
+.off {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.deals {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.catagory {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.first-image {}
+
+/* main second  */
+.main-second {
+    display: flex;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../B9A1-New-Year-New-Mission/resources/Vectorrr.png');
+    padding: 68px 130px;
+    border-radius: 15px;
+}
+
+.welcome {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+
+}
+
+.main-content {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.btn-primary {
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+/* main third started */
+.main-third {
+    padding: 100px 350px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+
+.main-third-content {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+span {
+    color: #F00;
+
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    /* 175% */
+    text-transform: capitalize;
+    text-align: center;
+
+}
+
+.secondary {
+
+    padding: 16px 32px;
+
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    display: block;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+}
+
+.btn-secondary {
+    text-align: center;
+    width: 100%;
+
+}
+.btn-secondary .secondary {
+margin: auto; }
+.main-forth {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-forth-content {
+    padding-right: 70px;
+   
+}
+
+.main-content-f {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.forth-img {
+    height: 365px;
+    width: 365px;
+    
+    border-radius: 365px;
+    border: 15px solid #F00;
+    
+   
+    justify-content: center;
+}
+
+/* main fifth started */
+.main-fifth {
+    text-align: center;
+}
+
+.main-fifth h6 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.main-fifth h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.main-fifth-span {
+    font-size: 72px;
+}
+
+.fifth-images {
+    display: flex;
+    padding: 0;
+    position: relative;
+}
+
+/* .imgone .discount {
+    width: 206.841px;
+    height: 206.841px;
+    flex-shrink: 0;} */
+
+.main-fifth p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 160% */
+}
+
+.fifth-images .imgone {
+    position: absolute;
+    padding-top: 90px;
+}
+
+.fifth-images .imgtwo {
+    position: absolute;
 }
